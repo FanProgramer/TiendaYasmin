@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Tienda de Ropa</h1>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="login.html">Administrador</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar productos...">
+            <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Bienvenidos a Nuestra Tienda</h2>
+            <p>Encuentra las mejores prendas al mejor precio</p>
+        </section>
+        <section id="product-list" class="product-list">
+            <!-- Productos serán cargados aquí dinámicamente -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tienda de Ropa. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+

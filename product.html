@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto - Tienda de Ropa</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Tienda de Ropa</h1>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="admin.html">Administrador</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar productos...">
+            <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+    <main>
+        <section class="product-details">
+            <div class="product-image">
+                <img src="url_de_la_imagen_del_producto" alt="Nombre del Producto">
+            </div>
+            <div class="product-info">
+                <h2>Nombre del Producto</h2>
+                <p>Precio: $99.99</p>
+                <p>Descripción del producto detallada...</p>
+                <button onclick="addToCart()">Agregar al Carrito</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tienda de Ropa. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
